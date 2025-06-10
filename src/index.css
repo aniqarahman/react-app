@@ -1,0 +1,25 @@
+/* Fix viewport height issues */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  background: #121212; /* Dark gray fallback */
+  color: white; /* Default text color */
+}
+
+/* Optional: Smooth font rendering */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+}
